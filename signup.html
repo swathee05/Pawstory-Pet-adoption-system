@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel ="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<header class = "header">
+    <div id="scr">
+    <nav class="navbar">
+       
+        <div class = "navdiv">
+            <a href="index.html" class="logo"><i class="fa fa-paw"></i>&nbsp;<b>Paw story.</b></a>
+        <ol>
+       <li><a href="Fap.html">  <b> Find a pet   </b></a></li> 
+        <li><a href="adopt.html">   <b>&emsp;Adopt </b>  </a></li>
+        <li><a href ="supplies.html">   <b>&emsp;Pet Supplies</b>   </a></li>
+        <li><a href ="">   <b>&emsp;Donate</b>   </a></li>
+        <li><a href="#">   <b>&emsp;Contact us </b>  </a></li>
+        <li><a href="login.html">  &emsp;<button class ="btn1"><b>Login</b></button>    </a></li>
+        <li><a href="signup.html">  &emsp;<button class ="btn2"><b>Sign up</b></button>    </a></li>
+        </ol>
+        </div>
+    </nav>
+   </div>
+</header>
+
+<body>
+    <div class = "scontainer">
+        <h1> <center>Woof, Sign up!</center></h1>
+        <div class = "sform-container">
+            <form class = "signup" action= "sinsert.php" method="POST" >
+
+                <div class = "sinputname">How should we call you?
+                    <input type ="text" placeholder="Enter a profile name" name="sinputname" required>
+                </div>
+                <div class = "semail">What's your email?
+                    <input type ="text" placeholder="Enter your email address" name="semail" required>
+                </div>
+                <div class = "spass">Create a Password.
+                    <input type ="password" placeholder="Enter your password" name="spass" required>
+                </div>
+                <div class = "sbutton">
+                    <a href="login.html">  <center><button type ="submit" id = 'sbtn'>Login</button> </center> </a>
+                </div>
+               
+
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
